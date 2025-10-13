@@ -1,32 +1,46 @@
-body {
+body 
+{
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 
+{
     color: #000000;
     padding-left: 10px;
 }
 
-.about, .skills, .projects, .contact {
+.about, .skills, .projects, .contact 
+{
     margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-ul, ol {
+img 
+{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+ul, ol 
+{
     margin: 10px 0;
     padding-left: 20px;
 }
 
-a {
+a 
+{
     color: #007BFF;
     text-decoration: none;
 }
 
-a:hover {
+a:hover 
+{
     text-decoration: underline;
 }
