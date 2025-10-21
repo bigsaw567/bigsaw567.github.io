@@ -12,6 +12,14 @@ h1, h2, h3, h4, h5, h6
     padding-left: 10px;
 }
 
+.about, .diagram
+{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 img 
 {
     max-width: 100%;
