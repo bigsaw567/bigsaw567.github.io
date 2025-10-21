@@ -30,6 +30,12 @@ img
     border-radius: 5px;
 }
 
+img:hover
+{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
 ul, ol 
 {
     margin: 10px 0;
