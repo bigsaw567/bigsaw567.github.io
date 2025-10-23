@@ -14,7 +14,7 @@ h1
 
 h1, h2, h3, h4, h5, h6 
 {
-    color: #000000;
+    color: #ffffff;
     padding-left: 10px;
 }
 
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6
 {
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #5b5b5b;
     border-radius: 5px;
 }
 
@@ -32,7 +32,7 @@ img
     height: auto;
     display: block;
     margin: 10px 0;
-    border: 1px solid #ccc;
+    border: 1px solid #5b5b5b;
     border-radius: 5px;
 }
 
