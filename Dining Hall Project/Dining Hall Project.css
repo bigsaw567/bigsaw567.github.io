@@ -30,7 +30,7 @@ img
     border-radius: 5px;
 }
 
-img:hover
+a img:hover
 {
     transform: scale(1.05);
     transition: transform 0.3s;
