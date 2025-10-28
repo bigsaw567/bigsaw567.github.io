@@ -10,7 +10,7 @@ body
 
 .header
 {
-    color: #2812ba; 
+    color: #2812ba !important; 
     font-size: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
