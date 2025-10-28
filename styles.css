@@ -15,11 +15,11 @@ h1, h2, h3, h4, h5, h6
 
 .header
 {
-    background: #ffffff;
     color: #200bb0;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 20px;
+    margin-right: 20px;
     text-align: left;
     border-bottom: 1px solid #ccc;
 }
