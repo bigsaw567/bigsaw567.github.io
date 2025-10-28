@@ -10,7 +10,6 @@ body
 
 .header
 {
-    color: #2812ba !important; 
     font-size: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -20,7 +19,7 @@ body
 
 h1, h2, h3, h4, h5, h6 
 {
-    color: #000000;
+    color: #2812ba;
 }
 
 .about, .skills, .projects, .contact 
