@@ -3,7 +3,7 @@
   --muted:#6b7280;
   --bg:#f7f9fb;
   --card:#ffffff;
-  --maxw:900px;
+  --maxw:800px;
   --radius:12px;
   --gap:18px;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
@@ -11,9 +11,8 @@
 }
 
 /* 
-The above was created with heavy ChatGPT usage. 
-Anything with a "--" before it was also created with assistance of ChatGPT. 
-@media sections were also ChatGPT assisted. 
+Things with "--" before them were ChatGPT additions to make it look better and be more readable. 
+Also, @media print section was a ChatGPT addition. 
 */
 
 html,body{
@@ -21,8 +20,6 @@ html,body{
   margin:0;
   background:linear-gradient(180deg, var(--bg), #ffffff 60%);
   color:#111827;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
 }
 
 .wrap{
@@ -37,8 +34,8 @@ html,body{
   border-radius:var(--radius);
   box-shadow:0 6px 18px rgba(15, 23, 42, 0.06);
   padding:24px;
-  display:grid;
-  grid-template-columns: 1fr;
+  display:flex;
+  flex-direction:column;
   gap:var(--gap);
 }
 
@@ -50,16 +47,9 @@ header{
   flex-wrap:wrap;
 }
 
-.name{
-  display:flex;
-  gap:14px;
-  align-items:baseline;
-}
-
 h1{
   margin:0;
   font-size:1.45rem;
-  letter-spacing:-0.02em;
 }
 
 .meta{
@@ -79,15 +69,9 @@ h1{
 }
 
 main{
-  display:grid;
-  grid-template-columns: 2fr 1fr;
-  gap:22px;
-}
-
-@media (max-width:860px){
-  main{ grid-template-columns: 1fr; }
-  .contact { text-align:left; width:100%; }
-  header{ flex-direction:column; align-items:flex-start; gap:8px; }
+  display:flex;
+  flex-direction:column;
+  gap:30px;
 }
 
 section{
@@ -98,24 +82,10 @@ h2{
   margin:0 0 8px 0;
   font-size:1.05rem;
   color:#0f172a;
-  display:flex;
-  align-items:center;
-  gap:10px;
-}
-
-.muted{
-  color:var(--muted);
-  font-size:0.95rem;
-}
-
-.edu, .exp, .skills{
-  background:linear-gradient(180deg, rgba(11,113,201,0.03), transparent);
-  border-radius:10px;
-  padding:14px;
 }
 
 .job{
-  margin-bottom:12px;
+  margin-bottom:18px;
 }
 
 .job h3{
@@ -123,7 +93,7 @@ h2{
   font-size:0.98rem;
 }
 
-.job .when{
+.when{
   font-size:0.9rem;
   color:var(--muted);
   margin-bottom:6px;
@@ -138,7 +108,7 @@ ul.bullets{
   display:flex;
   flex-wrap:wrap;
   gap:8px;
-  margin-top:8px;
+  margin-top:6px;
 }
 
 .chip{
@@ -161,4 +131,3 @@ footer{
   .wrap{ box-shadow:none; margin:0; }
   .card{ box-shadow:none; border-radius:0; }
 }
-    
